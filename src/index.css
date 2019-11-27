@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.head{
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.head img{
+  margin: 5px;
+  display: "block";
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 45%;
+}
+
+.head h1 {
+  text-align: center;
+}
+
+.genfield{
+  position: relative;
+  left: 40%;
+}
+
+.genfield input {
+  width: 250px;
+  height: 40px;
+  margin: 3px;
+  
+
+}
+
+.meme img {
+  width: 350px;
+  height:300px;
+}
+
+.top{
+  position: absolute;
+  top : 150px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+  text-align: center;
+
+}
+
+.bottom {
+  position: absolute;
+  bottom: 20px;
+  text-transform: uppercase;
+  color: whitesmoke;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+}
